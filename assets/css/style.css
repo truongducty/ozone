@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body{
+	margin: 0 auto;
+}
+.header{
+	max-width: 1920px;
+	padding: 21px 250px;
+	margin: 0 auto;
+
+}
+/*log*/
+.logo-contact{
+	display: flex;
+	justify-content: space-between;	
+
+}
+.logo{
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #06389A;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;	
+	position: relative;
+	background: white;
+	z-index: 999;
+}
+.logo::after{
+	content: "";
+    position: absolute;
+    height: 57px;
+    width: 585px;
+    background: white;
+    top: 65.5px;
+    left: -279.3px;
+    transform: skewX(-45deg);
+    z-index: -1;1;
+
+
+}
+
+
+/*contact*/
+.contact ul{
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 72px;
+}
+.contact-item a{
+
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+	text-decoration: none;
+
+}
+.contact-item:not(:last-child){
+	margin-right: 72px;
+}
+.contact-item a img{
+	margin-right: 5px;
+}
+.contact-title{		
+	color: #1A3761;
+	text-transform: uppercase;	
+}
+.contact-info{
+	color: #EE1F23;
+	font-weight: bold;
+}
+
+
+/*nav*/
+.nav ul{
+	display: flex;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-top: 60px;
+	font-weight: bolder;
+	font-family: 'Mulish', sans-serif;	
+	font-size: 14px;
+	z-index: 999;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #F8F8F8;	
+}
+.nav ul li:not(:last-child){
+	margin-right: 72px;
+}
+
+.main{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+/*banner*/
+.banner{
+	margin-top: -140px;
+}
+.banner-img{
+	position: relative;
+}
+hr.horizone-line{
+	border-top: 1px solid red;
+	position: absolute;
+	z-index: 999;
+}
