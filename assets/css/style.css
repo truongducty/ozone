@@ -8,12 +8,23 @@
 
 .header{
 	border-bottom: 1px solid white;	
+	position: relative;
+}
+.logo-contact::before {
+	content: '';
+	width: calc((100% - 1170px)/2);
+	height: 100%;
+	background: #fff;
+	left: 0;
+	position: absolute;
+	z-index: 1;
 }
 /*log*/
 .logo-contact{
 	display: flex;
 	justify-content: space-between;	
-
+	margin-top: 15px;
+	position: relative;
 }
 .logo{
 	text-align: center;
@@ -28,17 +39,15 @@
 	z-index: 999;
 }
 .logo::after{
-    content: "";
-    position: absolute;
-    height: 57px;
-    width: 585px;
-    background: white;
-    top: 49.6px;
-    left: -279.3px;
-    transform: skewX(-45deg);
-    z-index: -1;
-
-
+	content: "";
+	position: absolute;
+	height: 70.3px;
+	width: 705.7px;
+	background: white;
+	bottom: 0;
+	left: -413.3px;
+	transform: skewX(-45deg);
+	z-index: -1;
 }
 
 
@@ -73,9 +82,6 @@
 
 
 /*nav*/
-.nav{
-	border-bottom: 1px solid white;
-}
 .nav ul{
 	display: flex;
 	text-transform: uppercase;
@@ -88,6 +94,12 @@
 
 
 }
+.nav{
+	border-bottom: 1px solid white;
+	position: relative;
+	z-index: 999;
+	padding-bottom: 25px;
+}
 .nav ul li a{
 	text-decoration: none;
 	color: #F8F8F8;	
@@ -96,14 +108,134 @@
 	margin-right: 72px;
 }
 
-.main{
-	max-width: 1920px;
-	margin: 0 auto;
-}
+
 /*banner*/
 .banner{
-	margin-top: -140px;
+	margin-top: -150px;
 }
 .banner-img{
 	position: relative;
+	width: 100%;
+}
+.banner-content{
+	position: absolute;
+	top: 300px;
+	z-index: 999;
+	width: 100%;
+	margin: 0 auto;		
+}
+.banner-content-text{
+	width: 70%;		
+}
+.banner-content-text-title{
+	color: #FFFFFF;
+	font-size: 46px;
+	font-family: 'Mulish', sans-serif;	
+	font-weight: 800;
+	margin-bottom: 24px;
+	line-height: 1.6;
+}
+.banner-content-text-content{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #F8F8F8;
+	margin-bottom: 55px;	
+}
+.xemthem{
+
+	width: 27.4%;
+	line-height: 1;	
+
+}
+.xemthem-text{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Mulish', sans-serif;	
+	background: #EE1F23;
+	padding: 14px 51px;
+}
+.xemthem-arrow{
+	background: white;
+	text-align: center;
+	padding: 12px;
+
+}
+.banner-content-logo{
+	text-align: center;
+	margin-top: 300px;
+
+
+}
+.banner-content-logo p:not(:last-child){
+	margin-bottom: 42px;
+
+}
+.vector{
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+
+}
+/*about-us*/
+.about-us{
+	margin-top: 110px;
+}
+.about-us-img{
+	width: 47%;
+
+}
+.about-us-content{
+	width: 47%;
+}
+.ozone-company{
+	color: #EE1F23;
+	font-size: 14px;
+	font-family: 'Mulish', sans-serif;	
+	margin-bottom: 14px;
+}
+.vechungtoi{
+	color: #303030;	
+	font-size: 42px;
+	font-family: 'Mulish', sans-serif;	
+	margin-bottom: 14px;	
+}
+.about-us-text{
+	color: #303030;	
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 72px;	
+}
+/*tu van*/
+.tuvan-img{
+	position: relative;
+	width: 100%;
+}
+.tuvan-content{
+
+
+	position: absolute;
+
+    bottom: -1400px;	
+	margin: 0 auto;
+
+}
+.col{
+	padding: 35.78px 57.91px 46px 52px;
+	border: 1px solid rgba(86,61,124,.2);
+	background-color: white;
+}
+.w-100{
+	width: 100%!important;	
+}
+.row-col-logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.row-col-title{
+	color: #265BC5;
+	font-weight: 900;
+	font-family: 'Mulish', sans-serif;
+	font-size: 18px;	
 }
