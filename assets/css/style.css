@@ -211,13 +211,9 @@
 	position: relative;
 	width: 100%;
 }
-.tuvan-content{
+.tuvan{
 
-
-	position: absolute;
-
-    bottom: -1400px;	
-	margin: 0 auto;
+	background: url(../img/Rectangle 331.jpg);
 
 }
 .col{
